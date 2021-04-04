@@ -9,6 +9,13 @@ This porgram was tested using a Teensy 4.0 and ILI9341-based display. It is high
 <br>
 <br>
 
+Simple display of 32 x 24 1:1 pixel sizing
+![header image](https://raw.github.com/KrisKasprzak/HDThermalCamera-MLX90640/master/01px.jpg)
+
+Scaled display to 320 x 240 1:10 pixel sizing
+![header image](https://raw.github.com/KrisKasprzak/HDThermalCamera-MLX90640/master/10px.jpg)
+
+Scaled display to 310 x 230 1:10 pixel with interpolation
 ![header image](https://raw.github.com/KrisKasprzak/HDThermalCamera-MLX90640/master/ThermalCamera.jpg)
 
 
