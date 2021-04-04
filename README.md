@@ -1,6 +1,6 @@
 <b><h2><center>Version 1.0 updated 4/4/2021</center></h1></b>
 
-<b><h2><center>Sample Program for displaying MLX90640</center></h2></b>
+<b><h2><center>Sample Program for Thermal imaging camera, MLX90640, Teensy 4.0, and ILI9341 TFT display</center></h2></b>
 
 This program is the full source code in displaying temperatures measured from an MLX90640 thermal camera. The camera is a 32 x 24 sensor array, but this program will scale the display up to 310 x 230 through interpolation. Color mapping between temperatures and a 565 color palet is used for displaying data. Other features are legends with a temperature gradient and a histogram showing temperatur frequencies. Other controls let the user set the temperatue, range, and refresh rate.
 
