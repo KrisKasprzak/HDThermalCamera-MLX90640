@@ -690,9 +690,16 @@ void UpdateHistogram() {
     if (Length > 24) {
       Length = 24;
     }
-
-    Display.fillRect(293, 200 - (j * 3), Length, 2, ILI9341_BLACK);
+    
+    // draw histogram bars in color 
+    Display.fillRect(293, 200 - (j * 3), Length, 2, GetColor( (MINTEMP + (inc * j))   ));
+    
+    // or draw black
+    // Display.fillRect(293, 200 - (j * 3), Length, 2, ILI9341_BLACK);
+    
+    // regarless paint the remainder of the old bar. 
     Display.fillRect(293 + Length, 200 - (j * 3), 24 - Length, 2, ILI9341_WHITE);
+    
   }
 
   Display.setFont(Arial_12);
