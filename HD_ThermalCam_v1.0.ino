@@ -15,8 +15,8 @@
 */
 
 #include <Wire.h>
-#include "MLX90640_API.h"           // https://github.com/melexis/mlx90640-library
-#include "MLX90640_I2C_Driver.h"    // https://github.com/melexis/mlx90640-library
+#include "MLX90640_API.h"           // https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
+#include "MLX90640_I2C_Driver.h"    // https://github.com/sparkfun/SparkFun_MLX90640_Arduino_Example
 #include <font_Arial.h>             //https://github.com/PaulStoffregen/ILI9341_t3
 #include <font_ArialBold.h>         //https://github.com/PaulStoffregen/ILI9341_t3
 #include <ILI9341_t3.h>             //https://github.com/PaulStoffregen/ILI9341_t3
